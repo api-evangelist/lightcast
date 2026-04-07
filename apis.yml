@@ -1,8 +1,8 @@
 aid: lightcast
 name: Lightcast
 description: >-
-  The Career Coach Careers API is a RESTful API service that contains economic
-  data for all careers in the Career Coach app stored in JSON format.  
+  The Career Coach Careers API is a RESTful API service that contains economic data
+  for all careers in the Career Coach app stored in JSON format.
 type: Index
 position: Consumer
 access: 3rd-Party
@@ -18,9 +18,8 @@ apis:
   - aid: lightcast:lightcast
     name: Lightcast
     description: >-
-      The Career Coach Careers API is a RESTful API service that contains
-      economic data for all careers in the Career Coach app stored in JSON
-      format.  
+      The Career Coach Careers API is a RESTful API service that contains economic
+      data for all careers in the Career Coach app stored in JSON format.
     humanURL: ' https://docs.lightcast.dev/apis/careers'
     tags:
       - API
