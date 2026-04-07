@@ -7,8 +7,7 @@ type: Index
 position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
+tags: []
 created: '2025-01-07'
 modified: '2026-03-16'
 url: >-
@@ -21,8 +20,7 @@ apis:
       The Career Coach Careers API is a RESTful API service that contains economic
       data for all careers in the Career Coach app stored in JSON format.
     humanURL: ' https://docs.lightcast.dev/apis/careers'
-    tags:
-      - API
+    tags: []
     properties:
       - type: Documentation
         url: ' https://docs.lightcast.dev/apis/careers'
