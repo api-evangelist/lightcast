@@ -23,6 +23,8 @@ common:
     url: https://github.com/Lightcast-io
   - type: LinkedIn
     url: https://www.linkedin.com/company/lightcastdata
+  - type: LLMsTxt
+    url: https://docs.lightcast.dev/llms.txt
 apis:
   - aid: lightcast:lightcast
     name: Lightcast Careers API
