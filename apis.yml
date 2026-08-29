@@ -5,6 +5,17 @@ description: >-
   analytics including the Career Coach Careers API, a RESTful service that
   contains economic data for careers stored in JSON format.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
