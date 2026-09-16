@@ -1,9 +1,8 @@
 aid: lightcast
 name: Lightcast
-description: >-
-  Lightcast (formerly Emsi Burning Glass) provides labor market data and
-  analytics including the Career Coach Careers API, a RESTful service that
-  contains economic data for careers stored in JSON format.
+description: Lightcast (formerly Emsi Burning Glass) provides labor market data and analytics including
+  the Career Coach Careers API, a RESTful service that contains economic data for careers stored in JSON
+  format.
 type: Index
 deliveryModel:
   model: unknown
@@ -32,42 +31,41 @@ position: Consuming
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lightcast.png
 tags:
+- Careers
+- Economics
+- Labor Market
+- Workforce
+created: '2025-01-07'
+modified: '2026-09-16'
+url: https://raw.githubusercontent.com/api-evangelist/lightcast/refs/heads/main/apis.yml
+specificationVersion: '0.23'
+common:
+- type: Website
+  url: https://lightcast.dev
+- type: DomainSecurity
+  url: security/lightcast-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/Lightcast-io
+- type: LinkedIn
+  url: https://www.linkedin.com/company/lightcastdata
+- type: LlmsText
+  url: https://docs.lightcast.dev/llms.txt
+- url: https://lightcast.io/resources/blog
+  type: Blog
+apis:
+- aid: lightcast:lightcast
+  name: Lightcast Careers API
+  description: The Career Coach Careers API is a RESTful API service that contains economic data for all
+    careers in the Career Coach app stored in JSON format.
+  humanURL: https://docs.lightcast.dev/apis/careers
+  tags:
   - Careers
   - Economics
   - Labor Market
   - Workforce
-created: '2025-01-07'
-modified: '2026-04-28'
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/lightcast/refs/heads/main/apis.yml
-specificationVersion: '0.23'
-common:
-  - type: DomainSecurity
-    url: security/lightcast-domain-security.yml
-  - type: GitHubOrganization
-    url: https://github.com/Lightcast-io
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/lightcastdata
-  - type: LlmsText
-    url: https://docs.lightcast.dev/llms.txt
-  - url: https://lightcast.io/resources/blog
-    type: Blog
-apis:
-  - aid: lightcast:lightcast
-    name: Lightcast Careers API
-    description: >-
-      The Career Coach Careers API is a RESTful API service that contains
-      economic data for all careers in the Career Coach app stored in JSON
-      format.
-    humanURL: https://docs.lightcast.dev/apis/careers
-    tags:
-      - Careers
-      - Economics
-      - Labor Market
-      - Workforce
-    properties:
-      - type: Documentation
-        url: https://docs.lightcast.dev/apis/careers
+  properties:
+  - type: Documentation
+    url: https://docs.lightcast.dev/apis/careers
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
